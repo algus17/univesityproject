@@ -1,80 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-
-
-
-
-
-
-
-
-
-html { width: 100%; height:100%; overflow:hidden; }
-
-body { 
-padding: none;
-	width: 100%;
-	height:100%;
-	font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(180deg, #F4D5B0 26.76%, #DAA465 100%);
-    background-color: #fff;
+body, html, main {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #f4d5b0 26.76%, #daa465 100%);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-.btn 
-{    
-    width:143px;
-    height: 45px;
-    padding: none;
-    cursor: pointer;
-    background: #FFE8C6; 
-    color: #604729;
-    border:none; 
-    border-radius:18px;
-    text-decoration: none;
-    font-size:1.1em; 
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-display: flex;
-align-items: center;
-text-align: center; 
-}
-
-.login { 
-
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -150px 0 0 -150px;
-	width:300px;
-	height: 47px;
-
-}
-
-.login h1 { 
-
-	color:#A6753B
-  ; 
-	letter-spacing:1px; 
-	text-align:center; 
-
-}
-
-input { 
-
-width: 100%;
-margin-bottom: 10px;
-background: rgb(255, 255, 255);
-border: none;
-outline: none;
-padding: 10px;
-font-size: 16px;
-color: #000000;
-border-radius: 6px;
-
-}
-
-input:focus { background-color: #f0f0f0; }
