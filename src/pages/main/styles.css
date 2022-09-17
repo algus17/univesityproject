@@ -9,7 +9,22 @@
   width: 1px;
   height: 335px;
   background: #604729;
-  
+}
+
+.img-primary{
+  margin-bottom: 30px;
+}
+
+.main-title {
+  font-size: 50px;
+  color: #604729;
+  font-weight: 400;
+}
+
+.content-text {
+  font-size: 25px;
+  color: #604729;
+  font-weight: 400;
 }
 
 .content-right {
@@ -20,7 +35,7 @@
 }
 
 .content-right::before {
-  content: '';
+  content: "";
   width: 1px;
   height: 335px;
   background: #604729;
@@ -45,6 +60,7 @@
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -88,5 +104,3 @@ input {
 input:focus {
   background-color: #f0f0f0;
 }
-
-

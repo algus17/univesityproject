@@ -6,8 +6,9 @@
 
 body, html, main {
   height: 100%;
-  font-family: "Open Sans", sans-serif;
+  
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, #f4d5b0 26.76%, #daa465 100%);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
